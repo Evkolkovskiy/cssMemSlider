@@ -15,7 +15,6 @@ ul li{list-style:none;}
 img{vertical-align:top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 /*--------------------*/
-
 body {
     background-color: grey;
 }
@@ -56,7 +55,6 @@ body {
     top: 22%;
     left: 22%;
 }
-
 .round:hover {    
     opacity: 0.8;
     transform: scale(1.1);
@@ -101,7 +99,6 @@ input[name="r"] {
     font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
-
 }
 #r1:checked ~ .s1 {
     margin-left: 0;
@@ -135,5 +132,9 @@ input[name="r"] {
     }
     .description {
         margin-top: -20px;
+    }
+    .round {
+        height: 12px;
+        width: 12px;
     }
 }
